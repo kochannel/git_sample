@@ -8,3 +8,11 @@ puts <<~TEXT
 どうぞ、よろしくお願いします。
 
 TEXT
+
+
+
+users  = ["saitou","kaneko","kamisato"]
+
+users.each do|user|
+  puts user
+end
